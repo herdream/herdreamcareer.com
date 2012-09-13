@@ -1,0 +1,10 @@
+
+body {
+	background: #fff url(../img/background.jpg) no-repeat top left; 
+}
+
+#headerlogo {
+	position: absolute;
+	top:0;
+	left:150px;
+}
