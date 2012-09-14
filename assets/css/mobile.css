@@ -1,0 +1,11 @@
+
+
+body {
+	/*background: #F1F1F1 url(../img/background_mobile.jpg) no-repeat top left;*/
+	background: #F1F1F1  url(../img/background_mobile.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover; 
+
+}
