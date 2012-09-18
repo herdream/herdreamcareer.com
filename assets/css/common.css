@@ -1,0 +1,35 @@
+
+
+
+#oneTwoThreeArticles li h2{
+	margin:0 0 6px 0;
+	color:#666666;
+	font-weight:bold;
+	font-size: 15pt;
+	line-height: 24px
+}
+
+#oneTwoThreeArticles li p{
+	margin:0 0 8px 0;
+	color:#666666;
+	font-size: 11pt;
+}
+
+#oneTwoThreeArticles li a{
+	margin:0;
+	text-decoration:underline;
+	font-size: 11pt;
+	color:#3aadd1;
+}
+
+#oneTwoThreeArticles li.first{
+	list-style-image:url("../img/numbericon1.png")
+}
+
+#oneTwoThreeArticles li.second{
+	list-style-image:url("../img/numbericon2.png")
+}
+
+#oneTwoThreeArticles li.third{
+	list-style-image:url("../img/numbericon3.png")
+}
