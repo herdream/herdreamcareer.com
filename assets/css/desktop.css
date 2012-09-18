@@ -10,21 +10,8 @@ body {
 	background-size: cover; 
 }
 
-h1, .h1 { margin-top: .5em; margin-bottom: 0.5em; color: #469b15; font-size: 24px; text-transform:capitalize;}
-h2, .h2 {margin-top: 1em; color: #469b15; font-size: 18px; text-transform:capitalize; text-decoration:none;}
-h3, .h3, h3 a {color: #0d5db5; font-size: 15px; text-transform:capitalize; text-decoration:none;}
-h4, .h4 {color: #2E5A10; font-size: 11px; text-transform:capitalize; text-decoration:none;}
-h5, .h5 {}
-h6, .h6 {}
-
-h1, h2, h3, h4 {
-	font-family: 'Dosis', arial, verdana, sans-serif;
-	font-weight: normal;
-}
-
-
-
 header {
+	height: 110px;
 	background-image: linear-gradient(top, rgb(245,250,249) 38%, rgb(125,123,125) 69%, rgb(99,99,99) 85%, rgb(212,195,212) 93%);
 	background-image: -o-linear-gradient(top, rgb(245,250,249) 38%, rgb(125,123,125) 69%, rgb(99,99,99) 85%, rgb(212,195,212) 93%);
 	background-image: -moz-linear-gradient(top, rgb(245,250,249) 38%, rgb(125,123,125) 69%, rgb(99,99,99) 85%, rgb(212,195,212) 93%);
@@ -43,6 +30,23 @@ header {
 }
 
 nav {
+	width:73.333%;
+	margin: 0 auto;
+}
+
+div.pagecontent {
+	width:73.333%;
+	margin: 0 auto;
+	border: 1px solid #000;
+}
+
+#adcontent-container {
+	width:100%;
+	min-height: 150px;
+	background: #F1F1F1;
+}
+
+#adcontent {
 	width:73.333%;
 	margin: 0 auto;
 }

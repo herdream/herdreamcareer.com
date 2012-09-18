@@ -9,3 +9,8 @@ body {
 	background-size: cover; 
 
 }
+
+#headerlogonav {
+	width: 60%;
+	float:left;
+}
