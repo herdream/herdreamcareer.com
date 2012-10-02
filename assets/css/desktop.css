@@ -55,56 +55,8 @@ div.pagecontent {
 	float:left;
 	margin: 0;
 }
-#homeintro h1 {
-	font-size: 32px;
-	text-align: center;
-	color: #000;
-}
-#herocontainer {
-	float:right;
-	width:30%;
-	margin: 0;
-}
 
-#intro123 {
-	list-style: none;
-}
 
-#intro123 li {
-	width: 33%;
-	float:left;
-	height: 190px;
-	position: relative;
-}
-
-#intro123 li h1 {
-	width: 100%;
-	text-align: center;
-	font-size: 52px;
-	color: #FFF;
-	position: absolute;
-	top: 20px;
-}
-#intro123 li h2 {
-	width:100%;
-	background: hsla(0,0%,0%,0.5);
-	color: #FFF;
-	position: absolute;
-	bottom: 0px;
-	text-align: center;
-}
-
-#intro123 #first {
-	background: #990066;
-}
-
-#intro123 #second {
-	background: #96D503;
-}
-
-#intro123 #third {
-	background: #39C5EA;
-}
 
 
 #adcontent-container {
@@ -155,6 +107,10 @@ div.pagecontent {
 #primaryNav a {
 	color: #FFF;
 	font-size: 16px;
+}
+
+#center-workshops {
+	margin-top: 20px;
 }
 
 #oneTwoThreeArticles{
