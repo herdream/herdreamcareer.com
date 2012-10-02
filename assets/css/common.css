@@ -105,6 +105,7 @@
 #latestWorkshops li {
 	float:left;
 	width: 33%;
+	min-width: 240px;
 	height: 150px;
 }
 
@@ -131,6 +132,53 @@
 	border: 1px solid #666666;
 	padding: 8px;
 	margin-right: 8px;
+}
+
+#adcontent-container {
+	width:100%;
+}
+
+#adcontent {
+	width: 73.333%;
+	margin: 0 auto;
+	padding-top: 20px;
+	background: #F1F1F1;
+	list-style: none;
+	position: relative;
+}
+
+#adcontent li {
+	float:left;
+	width: 45%;
+	margin-left: 2.5%;
+}
+
+footer {
+	width: 100%;
+	background: #666666;
+	overflow: auto;
+}
+
+footer h2 {
+	font-size: 16px;
+	color:#FFF;
+	line-height: 18px;
+	margin-right: 8px;
+	margin-top: 0px;
+}
+
+#footercontent {
+	width: 73.333%;
+	margin: 0 auto;
+}
+
+#footercontent ul {
+	list-style: none;
+}
+
+#footercontent ul li {
+	float: left;
+	width: 33%;
 }
 
 
