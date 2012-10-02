@@ -15,10 +15,18 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!--[if gt IE 8 ]><!-->
+    <!--[if gte IE 9 ]><!-->
     <link rel="stylesheet" type="text/css" href="assets/css/base.css" media="all" >
     <link rel="stylesheet" type="text/css" href="assets/css/mobile.css" media="only screen and (max-width: 640px)">
     <link rel="stylesheet" type="text/css" href="assets/css/desktop.css" media="all and (min-width: 641px)">
+    <!--[if gte IE 9]>
+      <style type="text/css">
+        .gradient {
+           filter: none;
+        }
+      </style>
+    <![endif]-->
+
     <!--<![endif]-->
 
     <!--[if lt IE 9]>
@@ -33,7 +41,7 @@
   </head>
 
   <body>
-  <header>
+  <header class="gradient">
     <nav class="clearfix">
       <div id="headerlogonav">
         <img id="headerlogo" src="assets/img/bsw_logo.png"/>
