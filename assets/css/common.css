@@ -1,5 +1,7 @@
 
-
+#center-workshops {
+	background: #FFF;
+}
 
 #oneTwoThreeArticles li h2{
 	margin:0 0 6px 0;
@@ -83,3 +85,55 @@
 #intro123 #third {
 	background: #39C5EA;
 }
+
+#workshops {
+	margin-top: 10px;
+	background: #FFF;
+}
+
+#workshops h1 {
+	margin-left: 8px;
+	color: #666666;
+}
+
+#latestWorkshops {
+	list-style: none;
+	position: relative;
+	width: 100%;
+}
+
+#latestWorkshops li {
+	float:left;
+	width: 33%;
+	height: 150px;
+}
+
+#latestWorkshops li h2 {
+	font-size: 16px;
+	line-height: 18px;
+	margin-right: 8px;
+	margin-top: 0px;
+}
+
+#latestWorkshops li p {
+	font-size: 12px;
+	margin-right: 8px;
+	margin-top: 8px;
+}
+
+#latestWorkshops li .careerArea {
+	font-weight: bold;
+	display: block;
+}
+
+#latestWorkshops img {
+	float:left;
+	border: 1px solid #666666;
+	padding: 8px;
+	margin-right: 8px;
+}
+
+
+
+
+
