@@ -105,6 +105,7 @@
 #latestWorkshops li {
 	float:left;
 	width: 33%;
+	min-width: 240px;
 	height: 150px;
 }
 
@@ -131,6 +132,74 @@
 	border: 1px solid #666666;
 	padding: 8px;
 	margin-right: 8px;
+}
+
+#adcontent-container {
+	width:100%;
+}
+
+
+
+footer {
+	width: 100%;
+	background: #666666;
+	overflow: auto;
+}
+
+footer h2 {
+	font-size: 14px;
+	color:#FFF;
+	line-height: 16px;
+	margin-right: 8px;
+	margin-top: 20px;
+}
+
+#footercontent {
+	width: 73.333%;
+	margin: 0 auto;
+}
+
+#footercontent ul {
+	list-style: none;
+	margin-left: 0px;
+	margin-bottom: 40px;
+	overflow: auto;
+}
+
+#footercontent ul li {
+	float: left;
+	width: 33%;
+}
+
+#footercontent #footersocial {
+	list-style: none;
+	margin: 0;
+}
+
+#footercontent #footersocial li {
+	float:left;
+	width: auto;
+}
+
+#footercontent .footerlinklist {
+	margin: 0;
+}
+#footercontent .footerlinklist li {
+	float: none;
+	margin-top: 5px;
+	width:100%;
+}
+
+#footercontent li h1 {
+	font-size: 16px;
+	line-height: 18px;
+	color:#FFF;
+}
+
+#footercontent .footerlinklist li a {
+	font-size: 12px;
+	line-height: 14px;
+	color:#409bb8;
 }
 
 
