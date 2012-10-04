@@ -63,8 +63,18 @@ div.pagecontent {
 }
 
 #adcontent {
-	width:73.333%;
+	width: 73.333%;
 	margin: 0 auto;
+	padding-top: 20px;
+	background: #F1F1F1;
+	list-style: none;
+	position: relative;
+}
+
+#adcontent li {
+	float:left;
+	width: 45%;
+	margin-left: 2.5%;
 }
 
 #headerlogonav {
