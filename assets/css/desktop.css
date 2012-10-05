@@ -11,7 +11,7 @@ body {
 }
 
 				/*http://www.colorzilla.com/gradient-editor/*/
-header {
+headergrad {
 	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
 	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ0JSIgc3RvcC1jb2xvcj0iIzdkN2I3ZCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUyJSIgc3RvcC1jb2xvcj0iIzYzNjM2MyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU0JSIgc3RvcC1jb2xvcj0iI2Q0YzNkNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU1JSIgc3RvcC1jb2xvcj0iI2VhZTFlYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjU2JSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjk4Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
 	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(125,123,125,1) 44%, rgba(99,99,99,1) 52%, rgba(212,195,212,1) 54%, rgba(234,225,234,1) 55%, rgba(255,255,255,0.98) 56%, rgba(255,255,255,0) 100%); /* FF3.6+ */
@@ -22,7 +22,10 @@ header {
 	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(125,123,125,1) 44%,rgba(99,99,99,1) 52%,rgba(212,195,212,1) 54%,rgba(234,225,234,1) 55%,rgba(255,255,255,0.98) 56%,rgba(255,255,255,0) 100%); /* W3C */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-8 */
 }
-
+header {
+	background: url(../img/headerpattern.png) top left;
+	height:146px;
+}
 
 nav {
 	width:73.333%;
@@ -84,14 +87,15 @@ div.pagecontent {
 	margin-top: 0px;
 	width:45%;
 	position:absolute;
-	top:30px;
-	right:0;
+	top:18px;
+	right:15.5%;
 	list-style: none;
 }
 
 #secondaryNav li {
-	float:left;
+	float:right;
 	margin-left: 16px;
+
 }
 
 #secondaryNav a {
@@ -103,19 +107,19 @@ div.pagecontent {
 #primaryNav {
 	width: 45%;
 	position:absolute;
-	top:73px;
-	right:0;
+	top:53px;
+	right:15.5%;
 	list-style: none;
 }
 
 #primaryNav li {
-	float:left;
-	margin-left: 25px;
-	font-size: 20px;
+	float:right;
+	margin-left: 10%;
+	 
 }
 #primaryNav a {
 	color: #FFF;
-	font-size: 22px;
+	font-size: 23px;
 }
 
 #center-workshops {
