@@ -96,8 +96,19 @@ background:none;
 }
 
 #adcontent {
-	padding-top: 20px;
-	background: #F1F1F1;
-	list-style: none;
-	position: relative;
+	display: none;
+}
+
+#footercontent ul li {
+	float: none;
+	width: 100%;
+}
+
+#footer_copyright img {
+	margin-left: 2px;
+}
+
+#footer_sponsor {
+	display: block;
+	margin: 10px 0px;
 }
