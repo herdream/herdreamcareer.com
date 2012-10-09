@@ -112,3 +112,22 @@ background:none;
 	display: block;
 	margin: 10px 0px;
 }
+
+#workshopCarousel {
+	display: block;
+}
+
+#workshopCarousel div.item {
+	position: relative;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#workshopCarousel div.item img {	
+	margin: 0 auto;
+}
+
+#workshops {
+	display: none;
+}
+
