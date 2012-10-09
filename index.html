@@ -10,6 +10,7 @@
     <link href="assets/css/bootstrap.css" rel="stylesheet">
     <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="assets/css/common.css" rel="stylesheet">
+    <link href="assets/css/contenthover.css" rel="stylesheet">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -28,7 +29,7 @@
     <![endif]-->
 
     <!--<![endif]-->
-
+ 
     <!--[if lt IE 9]>
         <link rel="stylesheet" type="text/css" href="assets/css/desktop.css">
         <link rel="stylesheet" type="text/css" href="assets/css/ie.css">
@@ -70,14 +71,37 @@
               <h1>1</h1>
               <h2>Watch Videos</h2>
           </li>
+          <div class="contenthover">
+              <h3>
+                  Watch tutorials and create your own unique projects.</h3>
+              <p>
+                  Every tutorial makes learning fun, try designing your own shoe closet or building
+                  a hamburger with code.
+              </p>
+          </div>
           <li id="second">
               <h1>2</h1>
               <h2>Discover Mentors</h2>
           </li>
+          <div class="contenthover">
+              <h3>
+                  Discover mentors in a variety of fields.</h3>
+              <p>
+                  Each tutorial is lead by a woman that is currently working in that particular field.
+              </p>
+          </div>
           <li id="third">
               <h1>3</h1>
               <h2>Earn Badges</h2>
           </li>
+          <div class="contenthover">
+              <h3>
+                  Share badges with friends on your favorite sites.</h3>
+              <p>
+                  Each time you complete a tutorial you will earn a badge. Compete with your friends
+                  by posting your badges and try to earn them all.
+              </p>
+          </div>
         </ul>
       </div>
       <div id="herocontainer">
@@ -170,9 +194,9 @@
                <li>
                 <ul id="footersocial">
                   <li><img src="assets/img/social_icons/tumbler.jpg" /></li>
-                  <li><img src="assets/img/social_icons/tumbler.jpg" /></li>
-                  <li><img src="assets/img/social_icons/tumbler.jpg" /></li>
-                  <li><img src="assets/img/social_icons/tumbler.jpg" /></li>
+                  <li><img src="assets/img/social_icons/pinterest.jpg" /></li>
+                  <li><img src="assets/img/social_icons/facebook.jpg" /></li>
+                  <li><img src="assets/img/social_icons/twitter.jpg" /></li>
                 </ul>
                </li>
           </ul>
@@ -194,6 +218,10 @@
           </ul>
         </li>
     	</ul>
+      <p>
+        <span id="footer_copyright">Big Sister's Workshop. 2012 Copyright <img src="assets/img/footer_creativecommons.jpg" /> </span>
+        <span id="footer_sponsor">Sponsored By <a href="#">Her Ideas In Motion</a> </span>
+      </p>
     </div>
   </footer>
 
@@ -203,6 +231,20 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.contenthover.js" type="text/javascript"></script>
 
   </body>
+
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#first, #second, #third').contenthover({
+          effect: 'slide',
+          slide_direction: 'right',
+          overlay_x_position: 'right',
+          overlay_y_position: 'center',
+          overlay_background: 'rgba(0, 0, 0, 0.5)',
+          overlay_opacity: 0.8
+      });
+    });
+  </script>
 </html>

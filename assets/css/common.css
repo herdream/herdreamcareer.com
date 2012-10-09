@@ -147,9 +147,9 @@ footer {
 }
 
 footer h2 {
-	font-size: 14px;
+	font-size: 16px;
 	color:#FFF;
-	line-height: 16px;
+	line-height: 18px;
 	margin-right: 8px;
 	margin-top: 20px;
 }
@@ -157,6 +157,27 @@ footer h2 {
 #footercontent {
 	width: 73.333%;
 	margin: 0 auto;
+}
+
+#footer_copyright {
+	font-size: 12px;
+	color: #FFF;
+}
+
+#footer_copyright img {
+	margin-left: 10px;
+}
+
+#footer_sponsor {
+	display: inline;
+	margin-left: 30px;
+	font-size: 12px;
+	color: #FFF;
+}
+
+#footer_sponsor a {
+	color: #FFF;
+	text-decoration: underline;
 }
 
 #footercontent ul {
@@ -191,8 +212,8 @@ footer h2 {
 }
 
 #footercontent li h1 {
-	font-size: 16px;
-	line-height: 18px;
+	font-size: 20px;
+	line-height: 22px;
 	color:#FFF;
 }
 
