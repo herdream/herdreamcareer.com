@@ -8,6 +8,7 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover; 
+	padding:0;
 }
 
 				/*http://www.colorzilla.com/gradient-editor/*/
@@ -79,9 +80,10 @@ div.pagecontent {
 }
 
 #headerlogonav {
-	width: 30%;
+	width: 290px;
 	float:left;
 }
+
 
 #secondaryNav {
 	margin-top: 0px;
@@ -138,3 +140,20 @@ div.pagecontent {
 
 }
  
+
+@media( max-width: 900px  ){
+	nav{
+		width:100%;
+	} 
+	#primaryNav{
+		width:65%;
+		right:5.5%;
+	}
+	#secondaryNav{
+		right:5.5%;
+		width:65%;
+	}
+	#headerlogonav {
+	width: 250px;
+	}
+}
