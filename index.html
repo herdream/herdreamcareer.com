@@ -267,16 +267,22 @@
 
   <script type="text/javascript">
     $(document).ready(function() {
-      $('#first, #second, #third').contenthover({
-          effect: 'slide',
-          slide_direction: 'right',
-          overlay_x_position: 'right',
-          overlay_y_position: 'center',
-          overlay_background: 'rgba(0, 0, 0, 0.5)',
-          overlay_opacity: 0.8
-      });
+      if (!isMobile()) {
+        $('#first, #second, #third').contenthover({
+            effect: 'slide',
+            slide_direction: 'right',
+            overlay_x_position: 'right',
+            overlay_y_position: 'center',
+            overlay_background: 'rgba(0, 0, 0, 0.5)',
+            overlay_opacity: 0.8
+        });
+      }
 	  
-	  $(".carousel").carousel();
+	   $(".carousel").carousel();
     });
+
+    function isMobile(){
+      return $(window).width() <= 640;
+    }
   </script>
 </html>
