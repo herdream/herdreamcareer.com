@@ -43,13 +43,17 @@
 
                     $data.hide();
 
-                    var $ch_wrapper = $('<div>').addClass('ch_element').addClass(settings.wrapper_class).css({ 'width': w, 'height': h, 'position': 'relative', 'overflow': 'hidden', 'float': 'left'}).insertAfter($this);
+                    
+                    //var $ch_wrapper = $('<div>').addClass('ch_element').addClass(settings.wrapper_class).css({ 'width': w, 'height': h, 'position': 'relative', 'overflow': 'hidden', 'float': 'left' }).insertAfter($this);
+                    var $ch_wrapper = $('<div>').addClass('ch_element').addClass(settings.wrapper_class).css({'height': h, 'position': 'relative', 'overflow': 'hidden', 'float': 'left' }).insertAfter($this);
 
-                    var $ch_normal = $('<div>').addClass(settings.normal_class).css({ 'width': w, 'height': h, 'position': 'absolute', 'z-index': settings.zindex }).appendTo($ch_wrapper);
+                    //var $ch_normal = $('<div>').addClass(settings.normal_class).css({ 'width': w, 'height': h, 'position': 'absolute', 'z-index': settings.zindex }).appendTo($ch_wrapper);
+                    var $ch_normal = $('<div>').addClass(settings.normal_class).css({'height': h, 'position': 'absolute', 'z-index': settings.zindex }).appendTo($ch_wrapper);
                     $this.clone().css('width', '100%').appendTo($ch_normal);
                     $this.hide();
 
-                    var $ch_hover = $('<div>').addClass(settings.hover_class).css({ 'width': overlay_w, 'height': overlay_h, 'position': 'absolute', 'z-index': settings.zindex - 1 }).appendTo($ch_wrapper);
+                    //var $ch_hover = $('<div>').addClass(settings.hover_class).css({ 'width': overlay_w, 'height': overlay_h, 'position': 'absolute', 'z-index': settings.zindex - 1 }).appendTo($ch_wrapper);
+                    var $ch_hover = $('<div>').addClass(settings.hover_class).css({'height': overlay_h, 'position': 'absolute', 'z-index': settings.zindex - 1 }).appendTo($ch_wrapper);
                     $data.clone().show().appendTo($ch_hover);
 
                     var ch_hover_css = {};

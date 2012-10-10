@@ -25,7 +25,7 @@ headergrad {
 }
 header {
 	background: url(../img/headerpattern.png) top left;
-	height:146px;
+	height:96px;
 }
 
 nav {
@@ -139,6 +139,11 @@ div.pagecontent {
 	margin:0 0 0 5%;
 
 }
+
+#workshopCarousel {
+	display: none;
+}
+
  
 
 @media( max-width: 900px  ){

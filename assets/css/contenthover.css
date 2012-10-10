@@ -12,3 +12,11 @@
     line-height: 1.4em;
     padding: 0;
 }
+.ch_wrapper
+{
+    width:33%;
+}
+.ch_normal, .ch_hover
+{
+    width: 100%;
+}
