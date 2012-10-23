@@ -14,41 +14,125 @@ padding-left: 0px;
 
 	margin-top: 100px;
 }
-#primaryNav {
-list-style: none;
-position: absolute;
-width: 80%;
-padding:0;
-margin:0;
+#primaryNav { display: none; }
 
-left: 20%;
-z-index: 1;
-}
-#primaryNav li {
-line-height: 35px;
-font-size: 14px;
-background-color: gray;
-background-image: -moz-linear-gradient(top, #666, #888);
-background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#666), to(#888));
-background-image: -o-linear-gradient(top, #666, #888);
-background-image: linear-gradient(to bottom, #666, #888);
-background-repeat: repeat-x;
-border-color: #252525;
-}
-
-#primaryNav li a
-{
-font-weight: bold;
-color: white;
--webkit-border-radius: 3px;
--moz-border-radius: 3px;
-border-radius: 3px;
-text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-display: block;
-text-align: right;
-padding-right: 25px;
-}
 #secondaryNav{display: none;}
+
+/* =MOBILE NAV
+-------------------------------------*/
+
+#mobileNavWrap {
+	position: absolute;
+	right:0px;
+}
+
+/* menu icon */
+#menu-icon {
+	color: #FFF;
+	width: 60px;
+	height: 30px;
+	background: #E6421D url(images/menu-icon.png) no-repeat 10px center;
+	padding: 8px 10px 0 70px;
+	font-size: 16px;
+	cursor: pointer;
+	border: solid 1px #666;
+	display: block; /* show menu icon */
+}
+#menu-icon:hover {
+	background-color: #AF9EA6;
+}
+#menu-icon.active {
+	background-color: #AF9EA6;
+}
+
+/* main nav */
+#mobileNavContainer {
+	clear: both;
+	position: absolute;
+	right: 0px;
+	top: 38px;
+	width: 300px;
+	height: 400px;
+	z-index: 10000;
+	padding: 5px;
+	background: #F4E39C;
+	border: solid 1px #999;
+	display: none; /* visibility will be toggled with jquery */
+}
+
+#mobilePrimaryNav {
+	list-style: none;
+	width: 55%;
+	margin: 5px 10px 5px 5px;
+	background-color: #990066;
+	float: left;
+}
+
+#mobilePrimaryNav li {
+	clear: both;
+	float: none;
+	height: 30px;
+	margin: 10px 0 10px 5px;
+	border-bottom: 1px solid #7F816A;
+}
+
+#mobilePrimaryNav li ul {
+	margin-top: 10px;
+}
+
+#mobilePrimaryNav a, 
+#mobilePrimaryNav ul a {
+	font-size: 12px;
+	background: none;
+	display: inline;
+	padding: 0;
+	color: #FFF;
+	border: none;
+}
+#mobilePrimaryNav a:hover, 
+#mobilePrimaryNav ul a:hover {
+	background: none;
+	color: #000;
+}
+
+#mobilePrimaryNav ul li {
+	margin: 3px 0 3px 15px;
+}
+
+#mobileSecondaryNav {
+	list-style: none;
+	background-color: none;
+	margin: 5px;
+	width: 35%;
+	float: right;
+}
+
+#mobileSecondaryNav li {
+	clear: both;
+	float: none;
+	height: 30px;
+	margin: 10px 0 10px 10px;
+}
+#mobileSecondaryNav a, 
+#mobileSecondaryNav ul a {
+	font-size: 12px;
+	background: none;
+	display: inline;
+	padding: 0;
+	color: #000;
+	border: none;
+}
+#mobileSecondaryNav a:hover, 
+#mobileSecondaryNav ul a:hover {
+	background: none;
+	color: #000;
+}
+
+#mobileSecondaryNav ul li {
+	margin: 3px 0 3px 15px;
+}
+
+
 #headerlogonav {
 width: 259px;
 z-index: 2;

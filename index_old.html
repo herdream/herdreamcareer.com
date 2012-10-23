@@ -47,6 +47,28 @@
       <div id="headerlogonav">
         <img id="headerlogo" src="assets/img/bsw_logo.png"/>
       </div>
+        <div id="mobileNavWrap">
+          <div id="mobileNavContainer">
+            <ul id="mobilePrimaryNav">
+              <li><a href="/" title="">Home</a></li>
+              <li><a href="#" title="">About Us</a></li>
+              <li><a href="#" title="">Workshops</a>
+                <ul>
+                  <li><a href="#" title="">Web</a></li>
+                  <li><a href="#" title="">Games</a></li>
+                  <li><a href="#" title="">Film</a></li>
+                </ul>
+              </li>
+              <li><a href="#" title="">Badges</a></li>
+              <li><a href="#" title="">Mentors</a></li>
+            </ul>
+            <ul id="mobileSecondaryNav">
+              <li><a href="/" title="">Activities</a></li>
+              <li><a href="#" title="">Parents/Teachers</a></li>
+              <li><a href="#" title="">Contact Us</a></li>
+            </ul>
+          </div>
+        </div>
         <ul id="secondaryNav">
           <li><a href="#">About</a></li>
           <li><a href="#">Activities</a></li>
@@ -275,6 +297,7 @@
 
   <script type="text/javascript">
     $(document).ready(function() {
+
       if (!isMobile()) {
         $('#first, #second, #third').contenthover({
             effect: 'slide',
@@ -284,6 +307,17 @@
             overlay_background: 'rgba(0, 0, 0, 0.5)',
             overlay_opacity: 0.8
         });
+      }
+      else {
+        /* prepend menu icon */
+        $('#mobileNavWrap').prepend('<div id="menu-icon">Menu</div>');
+        
+        /* toggle nav */
+        $("#menu-icon").on("click", function(){
+          $("#mobileNavContainer").slideToggle();
+          $(this).toggleClass("active");
+        });
+
       }
 	  
 	   $(".carousel").carousel();
