@@ -49,6 +49,10 @@ div.pagecontent {
 	overflow: auto;
 }
 
+#mobileNavContainer {
+	display: none;
+}
+
 #homeintro_steps {
 	width: 70%;
 	float:left;
