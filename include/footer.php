@@ -1,16 +1,14 @@
 <footer class="clearfix">
     <div id="footercontent">
-    	<h2>Tagline latest watch stats</h2>
-    	<ul>
+    	<h2 id="footertagline">Tagline latest watch stats</h2>
+    	<ul id="footerlinkgroups">
     		<li>
     			<h1>Contact Us</h1>
     			<ul class="footerlinklist">
               <li><a href="#">Contact Us</a></li>
               <li><h2>Follow Us</h2></li>
                <li>
-                
-
-                <!-- AddThis Button BEGIN -->
+                <!- AddThis Button BEGIN -->
                 <div class="addthis_toolbox addthis_default_style ">
                   <a class="addthis_button_tumblr" style="cursor: pointer; padding: 0 1px;"></a>
                   <a class="addthis_button_pinterest_share" style="cursor: pointer; padding: 0 1px;"></a>
@@ -18,9 +16,7 @@
                   <a class="addthis_button_twitter" style="cursor: pointer; padding: 0 1px;"></a>
                 </div>
                 <!-- AddThis Button END -->
-
-
-               </li>
+              </li>
           </ul>
     		</li>
         <li>
