@@ -52,20 +52,19 @@ padding-left: 0px;
 	right: 0px;
 	top: 38px;
 	width: 300px;
-	height: 400px;
+/*	height: 400px;*/
 	z-index: 10000;
 	padding: 5px;
-	background: #F4E39C;
+	background: #999;
 	border: solid 1px #999;
 	display: none; /* visibility will be toggled with jquery */
 }
 
 #mobilePrimaryNav {
 	list-style: none;
-	width: 55%;
 	margin: 5px 10px 5px 5px;
-	background-color: #990066;
-	float: left;
+	background-color: #666;
+/*	float: left;*/
 }
 
 #mobilePrimaryNav li {
@@ -74,7 +73,15 @@ padding-left: 0px;
 	height: 30px;
 	margin: 10px 0 10px 5px;
 	border-bottom: 1px solid #7F816A;
+	padding-top: 6px;
 }
+
+#mobilePrimaryNav li.subMenu {
+	margin-left: 50px;
+}
+
+#mobilePrimaryNav li a { display: block; font-size: x-large; }
+#mobilePrimaryNav li a:hover { color: #906; font-weight: bold; }
 
 #mobilePrimaryNav li ul {
 	margin-top: 10px;
