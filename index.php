@@ -10,41 +10,41 @@ include("include/meta.php");
 
 <div class="pagecontent">
 	<div id="homeintro" class="clearfix">
-  <div id="homeintro_steps">
-			<h1>Start Exploring!</h1>
-			<ul id="intro123">
-      <li id="first">
-          <h1>1</h1>
-          <h2>Watch Videos</h2>
-      </li>
-      <div class="contenthover">
-          <h3>
-              Watch tutorials and create your own unique projects.</h3>
-          
-      </div>
-      <li id="second">
-          <h1>2</h1>
-          <h2>Discover Mentors</h2>
-      </li>
-      <div class="contenthover">
-          <h3>
-              Discover mentors in a variety of fields.</h3>
-          
-      </div>
-      <li id="third">
-          <h1>3</h1>
-          <h2>Earn Badges</h2>
-      </li>
-      <div class="contenthover">
-          <h3>
-              Share badges with friends on your favorite sites.</h3>
-          
-      </div>
-    </ul>
-  </div>
-  <div id="herocontainer">
-		 <img src="assets/img/girls_team.jpg" />
-  </div>
+    <div id="homeintro_steps">
+  			<h1>Start Exploring!</h1>
+  			<ul id="intro123">
+        <li id="first">
+            <h1>1</h1>
+            <h2>Watch Videos</h2>
+        </li>
+        <div class="contenthover">
+            <h3>
+                Watch tutorials and create your own unique projects.</h3>
+            
+        </div>
+        <li id="second">
+            <h1>2</h1>
+            <h2>Discover Mentors</h2>
+        </li>
+        <div class="contenthover">
+            <h3>
+                Discover mentors in a variety of fields.</h3>
+            
+        </div>
+        <li id="third">
+            <h1>3</h1>
+            <h2>Earn Badges</h2>
+        </li>
+        <div class="contenthover">
+            <h3>
+                Share badges with friends on your favorite sites.</h3>
+            
+        </div>
+      </ul>
+    </div>
+    <div id="herocontainer">
+  		 <img src="assets/img/girls_team.jpg" />
+    </div>
 
 	</div>
 
