@@ -8,20 +8,15 @@
           <ul id="mobilePrimaryNav">
             <li><a href="/" title="">Home</a></li>
             <li><a href="/about" title="">About Us</a></li>
-            <li><a href="/workshops" title="">Workshops</a>
-              <ul>
-                <li><a href="/workshops/web" title="">Web</a></li>
-                <li><a href="/workshops/games" title="">Games</a></li>
-                <li><a href="/workshops/film" title="">Film</a></li>
-              </ul>
-            </li>
+            <li><a href="/workshops" title="">Workshops</a></li>
+            <li class="subMenu"><a href="/workshops/web" title="">Web</a></li>
+            <li class="subMenu"><a href="/workshops/games" title="">Games</a></li>
+            <li class="subMenu"><a href="/workshops/film" title="">Film</a></li>
             <li><a href="/badges" title="">Badges</a></li>
             <li><a href="/mentors" title="">Mentors</a></li>
-          </ul>
-          <ul id="mobileSecondaryNav">
             <li><a href="/activities" title="">Activities</a></li>
             <li><a href="/resources" title="">Parents/Teachers</a></li>
-            <li><a href="/contact" title="">Contact Us</a></li>
+            <li><a href="/contact" title="">Contact Us</a></li>            
           </ul>
         </div>
       </div>
