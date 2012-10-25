@@ -26,6 +26,13 @@ include("../include/meta.php");
           <div id="videoPlayer">
             video content goes here
           </div>
+          <div>
+            <div class="addthis_toolbox addthis_default_style ">
+              <a class="addthis_button_compact" style="cursor: pointer; text-decoration: none;">Share</a>
+             <!--  <a class="addthis_button" href="http://www.addthis.com/bookmark.php" style="text-decoration: none">
+              <img src="../icon.jpg" width="16" height="16" border="0" alt="share" style="margin-right: 5px" />Share</a> -->
+            </div>
+          </div>
       </div>
       <div class="clearfix"></div>
 		<div id="QuizDiv"></div>
