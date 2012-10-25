@@ -19,7 +19,7 @@
           <li class="answer answer-radio">
             <label class="wrapper">
               <input type="radio" >
-              <span class="label">Its a style.</span>
+              <span class="label">Its a city.</span>
             </label>
           </li>
 

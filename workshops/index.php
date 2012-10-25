@@ -20,16 +20,18 @@ include("../include/meta.php");
             <li><a href="#">Other Link</a></li>
         </ul>
         <img id="workshopBadge" src="/assets/img/badge_thumb.jpg" />
-        <p><a  href="#">Get this Badge</a></p>
+        <p><a id="getBadgeLink"  href="#">Get this Badge</a></p>
       </div>
       <div id="videocontainer">
           <div id="videoPlayer">
             video content goes here
           </div>
       </div>
+      <div class="clearfix"></div>
+		<div id="QuizDiv"></div>
+
     </div>
 
-	<iframe SRC="/quiz/QuizQuestion.php" WIDTH=600 HEIGHT=325 FRAMEBORDER=0 SCROLLING=auto  id="QuizFrame" ></iframe>
 
     <div id="badges" class="clearfix">
       <h1>Earn Related Badges</h1>
@@ -68,6 +70,7 @@ include("../include/meta.php");
 
 
 <?php include("../include/scripts.php") ?>
+	<script src="/assets/js/QuizScripts.js"></script>
  
 <script src="/assets/jwplayer/jwplayer.js" type="text/javascript" ></script>
 <script type="text/javascript">
@@ -81,10 +84,13 @@ include("../include/meta.php");
         width: 480 
      	});
      	
-     	
+    	$("#getBadgeLink").click(function(){
+    	LoadQuiz();
+    	return false;
+    	}); 	
      
    	});
-
+	
   </script>
 
 

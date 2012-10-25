@@ -7,13 +7,13 @@
           <li class="answer answer-radio">
             <label class="wrapper">
               <input type="radio" >
-              <span class="label">Its a garnish.</span>
+              <span class="label">Its a type of garnish.</span>
             </label>
           </li>
           <li class="answer answer-radio">
             <label class="wrapper">
               <input type="radio" >
-              <span class="label">Its a bread.</span>
+              <span class="label">Its a type of bread.</span>
             </label>
           </li>
           <li class="answer answer-radio">

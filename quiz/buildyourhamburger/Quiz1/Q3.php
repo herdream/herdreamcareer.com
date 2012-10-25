@@ -7,7 +7,7 @@
           <li class="answer answer-radio">
             <label class="wrapper">
               <input type="radio" >
-              <span class="label">with brick and motor.</span>
+              <span class="label">with brick and mortar.</span>
             </label>
           </li>
           <li class="answer answer-radio">

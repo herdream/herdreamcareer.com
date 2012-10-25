@@ -168,9 +168,9 @@ CREATE TABLE  `herideasinmotion`.`WorkshopQuiz` (
 
 /*!40000 ALTER TABLE `WorkshopQuiz` DISABLE KEYS */;
 LOCK TABLES `WorkshopQuiz` WRITE;
-INSERT INTO `herideasinmotion`.`WorkshopQuiz` VALUES  (1,1,1,'buildyourhamburger/Quiz1/complete.php'),
- (2,2,1,'buildyourhamburger/Quiz1/complete.php'),
- (1,2,2,'buildyourhamburger/Quiz1/complete.php');
+INSERT INTO `herideasinmotion`.`WorkshopQuiz` VALUES  (1,1,1,'/quiz/buildyourhamburger/Quiz1/complete.php'),
+ (2,2,1,'/quiz/buildyourhamburger/Quiz1/complete.php'),
+ (1,2,2,'/quiz/buildyourhamburger/Quiz1/complete.php');
 UNLOCK TABLES;
 /*!40000 ALTER TABLE `WorkshopQuiz` ENABLE KEYS */;
 
