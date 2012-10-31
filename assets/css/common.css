@@ -188,6 +188,26 @@
 	margin-right: 8px;
 }
 
+#submaincontent {
+	/*width: 100%;
+	padding: 40px;*/
+	margin-top: 50px;
+	background: #FFF;
+	border: 1px solid #EEE;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+	overflow: auto;
+}
+
+#submaincontent h1{
+	color: #000;
+}
+
+#tutorialdescription {
+	font-size: 14px;
+}
+
 footer {
 	width: 100%;
 	background: #666666;
