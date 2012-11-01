@@ -10,10 +10,23 @@ include("../include/meta.php");
 
 <div class="pagecontent">
 	<div id="submaincontent" class="clearfix">
+      <h1> WORKSHOP HTML Hamburger</h1>
+      <div id="videocontainer">
+          <div id="videoPlayer">
+            video content goes here
+          </div>
+          <div>
+            <div class="addthis_toolbox addthis_default_style ">
+              <a class="addthis_button_compact" style="cursor: pointer; text-decoration: none;">Share</a>
+             <!--  <a class="addthis_button" href="http://www.addthis.com/bookmark.php" style="text-decoration: none">
+              <img src="../icon.jpg" width="16" height="16" border="0" alt="share" style="margin-right: 5px" />Share</a> -->
+            </div>
+          </div>
+      </div>
+
       <div id="tutorialintro">
-  			<h1> WORKSHOP<br />
-        HTML Hamburger</h1>
-		     <p>Description of lesson will be here.</p>
+  			
+		     <p id="tutorialdescription">Description of lesson will be here.</p>
         <h2>Materials</h2>
         <ul id="otherWorshops">
             <li><a href="#">Other Link</a></li>
@@ -22,11 +35,7 @@ include("../include/meta.php");
         <img id="workshopBadge" src="/assets/img/badge_thumb.jpg" />
         <p><a id="getBadgeLink"  href="#">Get this Badge</a></p>
       </div>
-      <div id="videocontainer">
-          <div id="videoPlayer">
-            video content goes here
-          </div>
-      </div>
+      
       <div class="clearfix"></div>
 		<div id="QuizDiv"></div>
 
@@ -75,14 +84,28 @@ include("../include/meta.php");
 <script src="/assets/jwplayer/jwplayer.js" type="text/javascript" ></script>
 <script type="text/javascript">
     $(document).ready(function() {
-     	jwplayer("videoPlayer").setup({
-         modes: [
-        { type: 'html5' },
-        { type: 'flash', src: '/assets/jwplayer/player.swf' }],
-        file: "/assets/jwplayer/video.mp4" ,
-        height: 270, 
-        width: 480 
-     	});
+      if ($(window).width() <= 640)
+      {
+        jwplayer("videoPlayer").setup({
+           modes: [
+          { type: 'html5' },
+          { type: 'flash', src: '/assets/jwplayer/player.swf' }],
+          file: "/assets/jwplayer/video.mp4" ,
+           height: 240, 
+          width: 320 
+        });
+      }
+      else {
+        jwplayer("videoPlayer").setup({
+           modes: [
+          { type: 'html5' },
+          { type: 'flash', src: '/assets/jwplayer/player.swf' }],
+          file: "/assets/jwplayer/video.mp4" ,
+          height: 250, 
+          width: 375 
+        });
+      }
+     	
      	
     	$("#getBadgeLink").click(function(){
     	LoadQuiz();

@@ -43,7 +43,15 @@ include("../include/meta.php");
 				</p>
 			</div>
 			<div class="span4">
-				
+				<p>
+				Proin semper orci in dolor sagittis ornare imperdiet enim volutpat. Curabitur sit 
+				amet felis lorem, eget auctor libero. Lorem ipsum dolor sit amet, consectetur 
+				adipiscing elit. Nullam ac felis ac lacus condimentum fermentum in id lacus. In hac 
+				habitasse platea dictumst. Suspendisse viverra nisl nec urna varius adipiscing vitae at 
+				tellus. Proin non arcu et dui vulputate euismod. Donec aliquet, lorem sed accumsan adipiscing, 
+				risus lorem varius mauris, non consequat augue felis in arcu. Morbi interdum nibh quis 
+				eros ornare elementum. Suspendisse sit amet nisl lectus, vitae sollicitudin elit.
+				</p>
 			</div>
 		</div>
 		
