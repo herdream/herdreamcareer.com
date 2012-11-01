@@ -2,7 +2,7 @@
 	<div class="carousel-inner">
 		<div class="active item">
 			<img src="/assets/img/workshop_hpthumb.jpg" />
-			<h2><a href="/workshops">Build a Yummy Hamburger with HTML</a></h2>
+			<h2><a href="/workshops/tutorial.php">Build a Yummy Hamburger with HTML</a></h2>
 			  <p>
 				<span class="careerArea">
 				  Career Area
@@ -12,7 +12,7 @@
 		</div>
 		<div class="item">
 			<img src="/assets/img/workshop_hpthumb.jpg" />
-			  <h2><a href="/workshops">Design Your Shoe Collection</a></h2>
+			  <h2><a href="/workshops/tutorial.php">Design Your Shoe Collection</a></h2>
 			  <p>
 				<span class="careerArea">
 				  Career Area
@@ -22,7 +22,7 @@
 		</div>
 		<div class="item">
 			<img src="/assets/img/workshop_hpthumb.jpg" />
-			  <h2><a href="/workshops">Other Video</a></h2>
+			  <h2><a href="/workshops/tutorial.php">Other Video</a></h2>
 			  <p>
 				<span class="careerArea">
 				  Career Area
