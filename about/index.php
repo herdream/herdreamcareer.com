@@ -24,7 +24,7 @@ include("../include/meta.php");
 				  ultricies malesuada leo pharetra ut. Donec lacinia tortor eget lorem dignissim in semper 
 				  quam sagittis. Nullam accumsan hendrerit eros quis accumsan.
 				</p>
-
+				<img src="/assets/img/kids_learning.jpg" width="300">
 				<p>
 				Proin semper orci in dolor sagittis ornare imperdiet enim volutpat. Curabitur sit 
 				amet felis lorem, eget auctor libero. Lorem ipsum dolor sit amet, consectetur 
