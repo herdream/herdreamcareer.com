@@ -15,30 +15,30 @@ include("include/meta.php");
   			<ul id="intro123">
         <li id="first">
             <h1>1</h1>
-            <h2>Watch Videos</h2>
+            <h2><a href="/workshops">Watch Videos</a></h2>
         </li>
         <div class="contenthover">
             <h3>
-                Watch tutorials and create your own unique projects.</h3>
-            
+                <a href="/workshops">Watch tutorials and create your own unique projects.</a>
+            </h3>
         </div>
         <li id="second">
             <h1>2</h1>
-            <h2>Discover Mentors</h2>
+            <h2><a href="/mentors">Discover Mentors</a></h2>
         </li>
         <div class="contenthover">
             <h3>
-                Discover mentors in a variety of fields.</h3>
-            
+                <a href="/mentors">Discover mentors in a variety of fields.</a>
+            </h3>
         </div>
         <li id="third">
             <h1>3</h1>
-            <h2>Earn Badges</h2>
+            <h2><a href="/badges">Earn Badges</a></h2>
         </li>
         <div class="contenthover">
             <h3>
-                Share badges with friends on your favorite sites.</h3>
-            
+                <a href="/badges">Share badges with friends on your favorite sites.</a>
+            </h3>
         </div>
       </ul>
     </div>

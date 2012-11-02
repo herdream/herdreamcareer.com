@@ -1,6 +1,16 @@
 
+
 #center-workshops {
 	background: #FFF;
+}
+
+#intro123 h2 a {
+	color:#FFF;
+}
+
+.contenthover a {
+	color:#FFF;
+	text-decoration: none;
 }
 
 #oneTwoThreeArticles li h2{
