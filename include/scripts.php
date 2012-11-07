@@ -45,12 +45,15 @@ $(document).ready(function() {
 
  $(".carousel").carousel();
 
+ 
  $(function() {
     $(window).scroll(function() {
-      if($(this).scrollTop() != 0) {
-        $('#toTop').fadeIn(); 
-      } else {
-        $('#toTop').fadeOut();
+      if (isMobile()) {
+        if($(this).scrollTop() != 0) {
+          $('#toTop').fadeIn(); 
+        } else {
+          $('#toTop').fadeOut();
+        }
       }
     });
    

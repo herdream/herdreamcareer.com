@@ -84,27 +84,15 @@ include("../include/meta.php");
 <script src="/assets/jwplayer/jwplayer.js" type="text/javascript" ></script>
 <script type="text/javascript">
     $(document).ready(function() {
-      if ($(window).width() <= 640)
-      {
+      $('.videoPlayer').css('left',10);
         jwplayer("videoPlayer").setup({
-           modes: [
-          { type: 'html5' },
-          { type: 'flash', src: '/assets/jwplayer/player.swf' }],
-          file: "/assets/jwplayer/video.mp4" ,
-           height: 240, 
-          width: 320 
-        });
-      }
-      else {
-        jwplayer("videoPlayer").setup({
-           modes: [
-          { type: 'html5' },
-          { type: 'flash', src: '/assets/jwplayer/player.swf' }],
-          file: "/assets/jwplayer/video.mp4" ,
-          height: 250, 
-          width: 375 
-        });
-      }
+        modes: [
+        { type: 'html5' },
+        { type: 'flash', src: '/assets/jwplayer/player.swf' }],
+        file: "/assets/jwplayer/video.mp4" ,
+        height:270,
+        width: $('.videoPlayer').outerWidth(),
+      });
      	
      	
     	$("#getBadgeLink").click(function(){
