@@ -154,17 +154,19 @@
 	overflow: auto;
 }
 
-.workshopTile {
+#submaincontent .workshopTile {
 	width:250px;
 	float:left;
 	padding-bottom: 12px;
 	background: url(../img/workshop_bk.png) bottom left no-repeat;
 }
 
-.workshopTile img {
+#submaincontent .workshopTile img {
 	-webkit-border-radius: 8px;
 	-moz-border-radius: 8px;
     border-radius: 8px;
+    margin: 5px 5px 2px 2px;
+    padding:0;
     width: 90%;
 }
 
