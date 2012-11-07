@@ -1,3 +1,6 @@
+
+<div id="toTop"><div id="arrow"></div></div>
+
 <footer class="clearfix">
     <div id="footercontent">
     	<h2 id="footertagline">Tagline latest watch stats</h2>
@@ -42,3 +45,4 @@
       </p>
     </div>
   </footer>
+

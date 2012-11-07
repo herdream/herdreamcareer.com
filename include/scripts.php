@@ -5,6 +5,7 @@
 <script src="/assets/js/bootstrap.min.js"></script>
 <script src="/assets/js/bootstrap-carousel.js"></script>
 <script src="/assets/js/jquery.contenthover.js" type="text/javascript"></script>
+<script src="/assets/js/jquery.scrollto.js" type="text/javascript"></script>
 <script type="text/javascript">
 var addthis_config =
 {
@@ -43,6 +44,20 @@ $(document).ready(function() {
   }
 
  $(".carousel").carousel();
+
+ $(function() {
+    $(window).scroll(function() {
+      if($(this).scrollTop() != 0) {
+        $('#toTop').fadeIn(); 
+      } else {
+        $('#toTop').fadeOut();
+      }
+    });
+   
+    $('#toTop').click(function() {
+      $('body,html').animate({scrollTop:0},800);
+    }); 
+  });
 });
 
 function isMobile(){

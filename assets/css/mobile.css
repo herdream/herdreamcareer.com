@@ -11,9 +11,15 @@ padding-left: 0px;
 }
 
 .pagecontent {
+	margin-top: 120px;
 
-	margin-top: 100px;
 }
+
+#submaincontent {
+	padding: 10px;
+	width:100%;
+}
+
 #primaryNav { display: none; }
 
 #secondaryNav{display: none;}
@@ -151,18 +157,27 @@ left: -18px;
 display:none; 
 }
 
+#homeintro {
+	margin-bottom: 30px;
+}
+
 #homeintro_steps{
-width:50%;
+width:60%;
 float:left;
 }
 
+#homeintro_steps h1{
+	margin-bottom: 20px;
+}
+
 #herocontainer{
-width:50%;
+width:40%;
+padding-top: 80px;
 float:left;
 }
 
 #herocontainer img{
-width:75%;
+width:100%;
 }
 
 #intro123 li{
@@ -186,6 +201,8 @@ line-height:20px;
 }
 #intro123 li h2 {
 background:none;
+text-align: left;
+margin-left: 35px;
 }
 
 #latestWorkshops li {
@@ -193,6 +210,51 @@ float:left;
 width: 100%;
 height: 150px;
 }
+
+#workshopNav {
+	list-style: none;
+	float: right;
+	width:100%;
+	height: 28px;
+	background: #7C7C7C;
+}
+
+#workshopNav li {
+	float:left;
+	width: 33%;
+	text-align: center;
+	border-left: 1px solid #FFF;
+}
+
+#workshopNav a {
+	color:#FFF;
+	font-size: 24px;
+
+	line-height: 28px;
+}
+
+.workshopcontainer {
+	
+}
+
+.workshopcontainer h2 {
+	margin-left: 0;
+}
+
+.workshopList {
+	margin-left: 8px;
+}
+
+.workshopList {
+	margin: 0 0 9px 15px;
+}
+
+.workshopList li {
+	width: 95%;
+	padding-bottom: 20px;
+	border-bottom:  2px solid #eee;
+}
+
 
 #adcontent {
 display: none;

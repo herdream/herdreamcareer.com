@@ -49,7 +49,7 @@ div.pagecontent {
 	overflow: auto;
 }
 
-#mobileNavContainer {
+#mobileNavWrap {
 	display: none;
 }
 
@@ -69,6 +69,8 @@ div.pagecontent {
 #submaincontent h1{
 	text-align: left;
 }
+
+
 
 #videocontainer {
 	width: 70%;

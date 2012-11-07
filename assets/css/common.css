@@ -1,6 +1,16 @@
 
+
 #center-workshops {
 	background: #FFF;
+}
+
+#intro123 h2 a {
+	color:#FFF;
+}
+
+.contenthover a {
+	color:#FFF;
+	text-decoration: none;
 }
 
 #oneTwoThreeArticles li h2{
@@ -94,6 +104,121 @@
 #workshops h1 {
 	margin-left: 8px;
 	color: #666666;
+}
+
+#workshopNav {
+	list-style: none;
+	float: right;
+	width:300px;
+	height: 24px;
+	background: #7C7C7C;
+}
+
+#workshopNav li {
+	float:left;
+	width: 33%;
+	text-align: center;
+	border-left: 1px solid #FFF;
+}
+
+#workshopNav a {
+	color:#FFF;
+	font-size: 20px;
+
+	line-height: 24px;
+}
+
+
+.workshopcontainer {
+	
+}
+
+.workshopcontainer h2 {
+	display: block;
+	padding: 8px;
+	margin-left: 15px;
+	background: #F9FCCE;
+	border: 1px solid #D79DA2;
+	color: #000;
+	font-size: 22px;
+}
+
+.workshopList {
+	list-style: none;
+}
+
+.workshopList li {
+	display: block;
+	clear: both;
+	margin-top: 40px;
+	overflow: auto;
+}
+
+.workshopTile {
+	width:250px;
+	float:left;
+	padding-bottom: 12px;
+	background: url(../img/workshop_bk.png) bottom left no-repeat;
+}
+
+.workshopTile img {
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+    border-radius: 8px;
+    width: 90%;
+}
+
+.workshopInfo {
+	float:left;
+	width:400px;
+}
+
+.workshopInfo h2 {
+	margin-top: 0;
+	margin-bottom: 10px;
+	margin-left: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+	background: none;
+	border: none;
+	font-size: 18px;
+}
+
+.workshopInfo h2 a {
+	color: #9A1409;
+}
+
+.workshopBadge {
+	width:200px;
+	padding-top: 10px;
+	border: 1px solid #DEB1DC;
+	overflow: auto;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.workshopBadge img {
+	width:70px;
+	float: left;
+}
+
+.workshopBadge p {
+	margin-top: 15px;
+}
+
+.workshopBadge a {
+	font-size: 16px;
+	line-height: 20px;
+}
+
+.badgeIconLink {
+	display: block;
+	float:left;
+}
+
+.workshopTile a {
+	color: #D096C7;
 }
 
 #badges {
@@ -201,6 +326,16 @@
 
 #submaincontent h1{
 	color: #000;
+}
+
+#submaincontent p {
+	font-size: 14px;
+}
+
+#submaincontent img {
+	margin: 10px;
+	border: 1px solid #000;
+	padding: 5px;
 }
 
 #tutorialdescription {
@@ -337,3 +472,27 @@ footer h2 {
 #QuizDiv .button{
 	margin-left:20px;
 }
+
+#toTop {
+	width:100px;
+    border:1px solid #ccc;
+    background:#f7f7f7;
+    text-align:center;
+    padding:5px;
+    position:fixed; /* this is the magic */
+    bottom:10px; /* together with this to put the div at the bottom*/
+    right:10px;
+    cursor:pointer;
+    display:none;
+    color:#333;
+    font-family:verdana;
+    font-size:11px;
+}
+
+#arrow {
+	background: url(../img/arrow_bk.png);
+	width:100px;
+	height: 25px; 
+}
+
+
