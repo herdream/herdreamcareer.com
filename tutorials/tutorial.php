@@ -33,7 +33,7 @@ include("../include/meta.php");
             <li><a href="#">Other Link</a></li>
         </ul>
         <img id="workshopBadge" src="/assets/img/badge_thumb.jpg" />
-        <p><a id="getBadgeLink"  href="#">Get this Badge</a></p>
+        <p><a id="getBadgeLink"  href="#">Earn this Badge</a></p>
       </div>
       
       <div class="clearfix"></div>
