@@ -8,10 +8,10 @@
           <ul id="mobilePrimaryNav">
             <li><a href="/" title="">Home</a></li>
             <li><a href="/about" title="">About Us</a></li>
-            <li><a href="/workshops" title="">Workshops</a></li>
-            <li class="subMenu"><a href="/workshops/web" title="">Web</a></li>
-            <li class="subMenu"><a href="/workshops/games" title="">Games</a></li>
-            <li class="subMenu"><a href="/workshops/film" title="">Film</a></li>
+            <li><a href="/tutorials" title="">Tutorials</a></li>
+            <li class="subMenu"><a href="/tutorials/web" title="">Web</a></li>
+            <li class="subMenu"><a href="/tutorials/games" title="">Games</a></li>
+            <li class="subMenu"><a href="/tutorials/film" title="">Film</a></li>
             <li><a href="/badges" title="">Badges</a></li>
             <li><a href="/mentors" title="">Mentors</a></li>
             <li><a href="/activities" title="">Activities</a></li>
@@ -30,7 +30,7 @@
       <ul id="primaryNav">
         <li><a href="/badges">Badges</a></li>
         <li><a href="/mentors">Mentors</a></li>
-        <li><a href="/workshops">Workshops</a></li>
+        <li><a href="/tutorials">Tutorials</a></li>
       </ul>
   </nav>
 </header>

@@ -15,7 +15,7 @@ include("include/meta.php");
   			<ul id="intro123">
         <li id="first">
             <h1>1</h1>
-            <h2><a href="/workshops">Watch Videos</a></h2>
+            <h2><a href="/tutorials">Watch Video Tutorials</a></h2>
         </li>
         <div class="contenthover">
             <h3>
