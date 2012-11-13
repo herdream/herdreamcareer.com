@@ -432,6 +432,54 @@ footer h2 {
 	color:#409bb8;
 }
 
+
+/* ##### Forms Style ###  */
+
+.formsuccess {
+	display:none;
+}
+
+.formerror {
+	display:none;
+}
+
+.formerror {
+    color: red;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+.requiredfield {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+}
+.optionalfield {
+}
+
+.formbutton {
+    background: none repeat scroll 0 0 #E8411C;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Dosis', arial, verdana, sans-serif
+    font-size: 1.3rem;
+    line-height: 1;
+    margin: 0;
+    outline: medium none;
+    padding: 9px 34px 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+#contactform input {
+	display:block;
+}
+
+
+/* ##### Forms Style End ###  */
+
 #QuizDiv{display:none;padding:10px 10% ;border-top:2px solid gray;margin-bottom:10px;background-color:#ECECF0 }
 .answers{list-style:none;margin-bottom:20px}
 
