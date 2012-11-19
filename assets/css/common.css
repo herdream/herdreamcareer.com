@@ -175,7 +175,7 @@
 	width:400px;
 }
 
-.workshopInfo h2 {
+.workshopInfo h2, .mentorInfo h2 {
 	margin-top: 0;
 	margin-bottom: 10px;
 	margin-left: 0;
@@ -222,6 +222,30 @@
 
 .workshopTile a {
 	color: #D096C7;
+}
+
+.mentorInfo {
+	float:left;
+	width:650px;
+	padding-top: 10px;
+}
+
+.mentorQuote {
+	font-weight: bold;
+}
+
+.mentorDescription {
+	padding-top: 10px;
+}
+
+.memberEmail {
+	float: left;
+	width:650px;
+}
+
+.memberEmail a {
+	background: url("../img/member-email.png") no-repeat scroll left center transparent;
+	padding-left: 25px;
 }
 
 #badges {
