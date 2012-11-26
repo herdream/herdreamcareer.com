@@ -175,7 +175,7 @@
 	width:400px;
 }
 
-.workshopInfo h2 {
+.workshopInfo h2, .mentorInfo h2 {
 	margin-top: 0;
 	margin-bottom: 10px;
 	margin-left: 0;
@@ -190,9 +190,10 @@
 	color: #9A1409;
 }
 
-.workshopBadge {
-	width:200px;
+.workshopCareer {
+	width:100px;
 	padding-top: 10px;
+	padding-left: 10px;
 	border: 1px solid #DEB1DC;
 	overflow: auto;
 	-webkit-border-radius: 5px;
@@ -200,9 +201,9 @@
     border-radius: 5px;
 }
 
-.workshopBadge img {
-	width:70px;
-	float: left;
+.workshopCareer .careerArea {
+	font-weight: bold;
+	display: block;
 }
 
 .workshopBadge p {
@@ -221,6 +222,30 @@
 
 .workshopTile a {
 	color: #D096C7;
+}
+
+.mentorInfo {
+	float:left;
+	width:80%;
+	padding-top: 10px;
+}
+
+.mentorQuote {
+	font-weight: bold;
+}
+
+.mentorDescription {
+	padding-top: 10px;
+}
+
+.memberEmail {
+	float: left;
+	width:650px;
+}
+
+.memberEmail a {
+	background: url("../img/member-email.png") no-repeat scroll left center transparent;
+	padding-left: 25px;
 }
 
 #badges {
@@ -430,6 +455,54 @@ footer h2 {
 	line-height: 14px;
 	color:#409bb8;
 }
+
+
+/* ##### Forms Style ###  */
+
+.formsuccess {
+	display:none;
+}
+
+.formerror {
+	display:none;
+}
+
+.formerror {
+    color: red;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+.requiredfield {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    padding: 5px;
+}
+.optionalfield {
+}
+
+.formbutton {
+    background: none repeat scroll 0 0 #E8411C;
+    border: medium none;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Dosis', arial, verdana, sans-serif
+    font-size: 1.3rem;
+    line-height: 1;
+    margin: 0;
+    outline: medium none;
+    padding: 9px 34px 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+}
+
+#contactform input {
+	display:block;
+}
+
+
+/* ##### Forms Style End ###  */
 
 #QuizDiv{display:none;padding:10px 10% ;border-top:2px solid gray;margin-bottom:10px;background-color:#ECECF0 }
 .answers{list-style:none;margin-bottom:20px}

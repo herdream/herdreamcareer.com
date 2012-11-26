@@ -25,7 +25,7 @@
         <li>
           <h1>Cool Things To Do</h1>
           <ul class="footerlinklist">
-              <li><a href="#">Watch a Workshop</a></li>
+              <li><a href="#">Watch a Tutorial</a></li>
               <li><a href="#">Meet a Mentor</a></li>
               <li><a href="#">Earn a Badge</a></li>
           </ul>

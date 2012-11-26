@@ -36,7 +36,7 @@
 </div>
 
 <div id="workshops" class="clearfix">
-	<h1>Latest Workshops</h1>
+	<h1>Latest Tutorials</h1>
 	<ul id="latestWorkshops">
 	    <li>
 	      <img src="/assets/img/workshop_hpthumb.jpg" />
