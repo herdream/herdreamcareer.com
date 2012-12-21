@@ -128,7 +128,7 @@
 	line-height: 24px;
 }
 
-
+/*
 .workshopcontainer {
 	
 }
@@ -154,6 +154,8 @@
 	overflow: auto;
 }
 
+
+
 #submaincontent .workshopTile {
 	width:250px;
 	float:left;
@@ -169,6 +171,8 @@
     padding:0;
     width: 90%;
 }
+
+*/
 
 .workshopInfo {
 	float:left;

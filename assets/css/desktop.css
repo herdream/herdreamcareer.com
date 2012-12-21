@@ -167,7 +167,100 @@ div.pagecontent {
 	display: none;
 }
 
- 
+.workshopcontainer {
+	width: 100%;
+	background: #F2EDED;
+	border: 1px solid;
+	margin-top: 20px;
+}
+
+.workshopcontainer h2 {
+	display: block;
+	padding: 5px;
+	margin-left: 5px;
+	background: none;
+	border: none;
+	color: #000;
+	font-size: 16px;
+}
+.workshopList {
+	overflow: auto;
+	clear:both;
+	width: 95%;
+	list-style: none;
+}
+
+.workshopList li {
+	margin-left: 10px;
+	float:left;
+	width: 200px;
+}
+
+#submaincontent .workshopTile {
+	width:140px;
+	padding-bottom: 12px;
+	background: url(../img/workshop_bk.png) bottom left no-repeat;
+}
+
+#submaincontent .workshopTile img {
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+    border-radius: 8px;
+    margin: 5px 5px 2px 2px;
+    padding:0;
+    width: 90%;
+}
+
+
+.workshopInfo {
+	float:left;
+	width:100%;
+}
+
+
+.workshopInfo h2, .mentorInfo h2 {
+	margin-top: 0;
+	margin-bottom: 10px;
+	margin-left: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+	height: 40px;
+	background: none;
+	border: none;
+	font-size: 12px;
+
+}
+
+.workshopInfo h2 a {
+	color: #9A1409;
+	line-height: 20px;
+
+}
+
+.workshopCareer {
+	width:80%;
+	padding-top: 10px;
+	padding-left: 10px;
+	border: 1px solid #DEB1DC;
+	overflow: auto;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.workshopCareer .careerArea {
+	font-weight: bold;
+	display: block;
+}
+
+.workshopBadge p {
+	margin-top: 15px;
+}
+
+.workshopBadge a {
+	font-size: 16px;
+	line-height: 20px;
+}
 
 @media( max-width: 900px  ){
 	nav{

@@ -14,14 +14,14 @@ include("../include/meta.php");
 		<h1>Badges</h1>
 		<p>Click any of the badges below for information on how to earn those badges!</p>
 
-     	<div id="badges" class="workshopcontainer">
+     	<div id="web_workshops" class="workshopcontainer">
 			<h2>Web</h2>
 			<ul class="workshopList">
 				<li>
-					<a href="/tutorials/tutorial.php">
-					<div class="workshopTile"><img src="/assets/img/badge_thumb.jpg" /></div>
+					<div class="workshopTile"><a href="/tutorials/tutorial.php"><img src="/assets/img/badge_thumb.jpg" /></a></div>
 					<div class="workshopInfo">
 						<h2><a href="/tutorials/tutorial.php">Build AYummy Hamburger With HTML</a></h2>
+						<a href="/tutorials/tutorial.php">Get this Badge!</p></a>
 						<div class="workshopCareer">
 							<p>
 								<span class="careerArea">
@@ -120,17 +120,11 @@ include("../include/meta.php");
 				</li>
 			</ul>
      	</div>
-  	</div>
 
-
-
-
+     	
 
   	</div>
-
-
-	<?php include("../include/latestvideos.php") ?>
-
+  	 <?php include("../include/latestvideos.php") ?>
 </div>
 
 <?php include("../include/ads.php") ?>
