@@ -128,7 +128,7 @@
 	line-height: 24px;
 }
 
-/*
+
 .workshopcontainer {
 	
 }
@@ -219,7 +219,6 @@
 	line-height: 20px;
 }
 
-*/
 
 .badgeIconLink {
 	display: block;
@@ -229,6 +228,95 @@
 .workshopTile a {
 	color: #D096C7;
 }
+
+
+.badgecontainer {
+	width: 100%;
+	background: #F2EDED;
+	border: 1px solid;
+	margin-top: 20px;
+}
+
+.badgecontainer h2 {
+	display: block;
+	padding: 5px;
+	margin-left: 5px;
+	background: none;
+	border: none;
+	color: #000;
+	font-size: 20px;
+}
+.badgeList {
+	overflow: auto;
+	clear:both;
+	width: 95%;
+	list-style: none;
+}
+
+.badgeList li {
+	margin-left: 10px;
+	float:left;
+	width: 200px;
+}
+
+#submaincontent .badgeTile {
+	width:140px;
+	padding-bottom: 8px;
+	background: url(../img/badge_bk.png) bottom left no-repeat;
+}
+
+#submaincontent .badgeTile img {
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+    border-radius: 8px;
+    margin: 5px 5px 2px 2px;
+    padding:0;
+    width: 90%;
+}
+
+
+.badgeInfo {
+	float:left;
+	width:100%;
+}
+
+
+.badgeInfo h2, {
+	margin-top: 0;
+	margin-bottom: 10px;
+	margin-left: 0;
+	padding-left: 0;
+	padding-bottom: 0;
+	height: 40px;
+	background: none;
+	border: none;
+	font-size: 12px;
+
+}
+
+.badgeInfo h2 a {
+	color: #9A1409;
+	line-height: 14px;
+	font-size: 14px;
+}
+
+.badgeCareer {
+	width:80%;
+	padding-top: 10px;
+	padding-left: 10px;
+	border: 1px solid #DEB1DC;
+	overflow: auto;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.badgeCareer .careerArea {
+	font-weight: bold;
+	display: block;
+}
+
+
 
 .mentorInfo {
 	float:left;
