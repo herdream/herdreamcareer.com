@@ -281,8 +281,8 @@
 }
 
 
-.badgeInfo h2, {
-	margin-top: 0;
+.badgeInfo h2 {
+	margin-top: 0px;
 	margin-bottom: 10px;
 	margin-left: 0;
 	padding-left: 0;
@@ -290,14 +290,14 @@
 	height: 40px;
 	background: none;
 	border: none;
-	font-size: 12px;
-
+	line-height: 18px;
+	font-size: 14px;
+	margin-top: 0px;
 }
 
 .badgeInfo h2 a {
 	color: #9A1409;
-	line-height: 14px;
-	font-size: 14px;
+
 }
 
 .badgeCareer {
